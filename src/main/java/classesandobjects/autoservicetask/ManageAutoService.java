@@ -24,5 +24,7 @@ public class ManageAutoService
         Tool surubelnita = new Tool();
         Worker ionMuncitor = new Worker();
         Garage garageBavaria = new Garage();
+
+        System.out.println("Pentru Import");
     }
 }
