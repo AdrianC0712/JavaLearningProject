@@ -1,10 +1,17 @@
 package operationsandciclicfunctions;
 
+import java.util.Scanner;
+
 public class ComparisonOperationsExample {
     public static void main(String [] args)
     {
-        int a =10;
-        int b =5;
+        int a;
+        int b;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Citeste de la tastatura a:");
+        a = sc.nextInt();
+        System.out.println("CIteste de la tastatura b:");
+        b = sc.nextInt();
 
         boolean variabila = a == b;
         System.out.println("Egal cu:" + variabila);
