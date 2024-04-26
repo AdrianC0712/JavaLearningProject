@@ -1,10 +1,18 @@
 package operationsandciclicfunctions;
 
+import java.util.Scanner;
+
 public class AssignmentOperationsExample {
     public static void main(String [] args)
     {
-        int a = 8;
-        int b = 4;
+        int a;
+        int b;
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Citeste de la tastatura a:");
+        a = sc.nextInt();
+        System.out.println("CIteste de la tastatura b:");
+        b = sc.nextInt();
 
         int rezultat = a;
         System.out.println("Atribuirea simpla:"+rezultat);

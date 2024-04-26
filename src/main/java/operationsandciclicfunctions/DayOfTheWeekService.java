@@ -1,5 +1,7 @@
 package operationsandciclicfunctions;
 
+import java.util.Scanner;
+
 public class DayOfTheWeekService {
     public static void main(String [] args)
     {
@@ -7,6 +9,10 @@ public class DayOfTheWeekService {
         String dayName = "Joi";
 
         System.out.println(dayName.toUpperCase());
+
+        Scanner sc = new Scanner(System.in);
+        dayNumber = sc.nextInt();
+        dayName = sc.next();
 
         switch (dayName.toUpperCase())
         {
